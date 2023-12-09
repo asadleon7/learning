@@ -1,4 +1,4 @@
-package classes;
+package Array;
 
 public class Dvd {
     private String title;

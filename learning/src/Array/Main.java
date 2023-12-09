@@ -1,6 +1,4 @@
-package main;
-
-import classes.Dvd;
+package Array;
 
 public class Main {
     public static void main(String[] args) throws Exception {
@@ -32,6 +30,9 @@ public class Main {
   z.setTitle("Moon Collapse");
   z.getDetails();
 //create an array with the type of Dvd which is a class
+// Array structure without size data_type[] var = {items}
+//Array structure with size data_type[] var = new data_type[size_of_array]
+
 Dvd [] dvds =new Dvd[4];
 dvds[0] = x;
 dvds[1] = y;
